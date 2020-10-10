@@ -1,0 +1,8 @@
+import numpy as np
+name = 'Akshat Mishra'
+skills = np.array(['Data Structures', 'Python', 'Android Development', 'Java', 'Kotlin'])
+print(name)
+print(f'I have {len(skills)} Skills :-')
+for e in skills:
+  print(e, end = " ")
+print()
